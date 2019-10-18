@@ -155,6 +155,7 @@ TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
 TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # Recovery
