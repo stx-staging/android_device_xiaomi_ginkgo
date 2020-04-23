@@ -1,5 +1,10 @@
 [
   {
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-11.0",
+    "branch": "master"
+  },
+  {
     "repository": "StatiXOS/android_kernel_xiaomi_ginkgo",
     "target_path": "kernel/xiaomi/ginkgo",
     "branch": "10"
