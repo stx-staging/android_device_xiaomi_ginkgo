@@ -1,0 +1,8 @@
+[
+  {
+    "repository": "trinket-devs/vendor_ANXCamera",
+    "target_path": "vendor/ANXCamera",
+    "branch": "master",
+    "remote": "github"
+  }
+]
