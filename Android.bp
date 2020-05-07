@@ -1,6 +1,0 @@
-soong_namespace {
-
-imports: [
-        "vendor/ANXCamera/48mp_fix"
-    ],
-}
