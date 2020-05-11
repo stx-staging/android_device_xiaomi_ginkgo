@@ -50,7 +50,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ginkgo
-TARGET_KERNEL_CONFIG := artemis_ginkgo_defconfig
+TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := trinket
