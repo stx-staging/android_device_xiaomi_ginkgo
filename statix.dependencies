@@ -1,8 +1,17 @@
 [
   {
+    "repository": "StatiXOS/android_kernel_xiaomi_ginkgo",
+    "target_path": "kernel/xiaomi/ginkgo",
+    "branch": "10"
+  },
+  {
+    "repository": "StatiXOS/android_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "10"
+  },
+  {
     "repository": "trinket-devs/vendor_ANXCamera",
     "target_path": "vendor/ANXCamera",
     "branch": "master",
-    "remote": "github"
   }
 ]
