@@ -25,9 +25,6 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
 BUILD_BROKEN_DUP_RULES := true
 
-MSMSTEPPE := trinket
-TARGET_SEPOLICY_DIR := trinket
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 
@@ -53,7 +50,6 @@ TARGET_KERNEL_CONFIG := genom_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := trinket
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -124,12 +120,11 @@ TARGET_USES_ION := true
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
+# LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
-
-# Vendor init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ginkgo
-TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -176,12 +171,16 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD := true
 
 # Sepolicy
+TARGET_SEPOLICY_DIR := trinket
 include device/qcom/sepolicy/sepolicy.mk
-
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_SEPOLICY_VERS := 29.0
+
+# Vendor init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ginkgo
+TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

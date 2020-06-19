@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The StatiXOS Project
+# Copyright (C) 2019-2020 The StatiXOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

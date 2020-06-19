@@ -10,8 +10,8 @@
     "branch": "10"
   },
   {
-    "repository": "trinket-devs/vendor_ANXCamera",
-    "target_path": "vendor/ANXCamera",
+    "repository": "trinket-devs/vendor_aeonax_ANXCamera",
+    "target_path": "vendor/aeonax/ANXCamera",
     "branch": "master",
   }
 ]
