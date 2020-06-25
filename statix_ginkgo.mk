@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common StatiXOS stuff.
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
-$(call inherit-product, vendor/ANXCamera/config.mk)
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_ginkgo
