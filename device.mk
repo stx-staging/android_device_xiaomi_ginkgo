@@ -145,9 +145,6 @@ PRODUCT_PACKAGES += \
     libldacBT_dec \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
-# Boot SPL
-BOOT_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
-
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
@@ -430,9 +427,6 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
-
-# Vendor SPL
-VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
 # Vibrator
 PRODUCT_PACKAGES += \
