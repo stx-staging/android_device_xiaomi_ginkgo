@@ -205,7 +205,7 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
 # Camera
-vendor/lib/hw/camera.trinket.so
+vendor/lib/hw/camera.trinket.so|74974dfcf5e80504089cd91d0182a2881c07fb61
 vendor/lib/libalCFR.so
 vendor/lib/libalLDC.so
 vendor/lib/libalhLDC.so
@@ -1184,7 +1184,7 @@ vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_video_3a.so
 # Camera configs
 vendor/etc/camera/arcsoft_calibration_data.bin
 vendor/etc/camera/cameraconfig.txt
-vendor/etc/camera/camera_config.xml
+vendor/etc/camera/camera_config.xml|785164cdcfa5ed61aead66543dc4b8db83584109
 vendor/etc/camera/CFR_para.bin
 vendor/etc/camera/csidtg_camera.xml
 vendor/etc/camera/csidtg_chromatix.xml
@@ -1539,9 +1539,9 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so
 -product/lib/vendor.qti.hardware.fm@1.0.so
 -product/lib64/vendor.qti.hardware.fm@1.0.so
 lib/fm_helium.so
-lib/libfm-hci.so
+lib/libfm-hci.so|d26a94db25e1177be79120a48bc04cc9c758ed2a
 lib64/fm_helium.so
-lib64/libfm-hci.so
+lib64/libfm-hci.so|5c67a201dba4c1ecacff74d14bad5f9005a24ffa
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
@@ -1844,10 +1844,10 @@ vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 
 # Mlipay
-vendor/bin/mlipayd@1.1
+vendor/bin/mlipayd@1.1|7d0cf4dd10de4c77a51e8980f39648a9336e790d
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
-vendor/lib64/libmlipay@1.1.so
-vendor/lib64/libmlipay.so
+vendor/lib64/libmlipay@1.1.so|c2d90640f9b136e5f81b5f986bb52a15f2df8a88
+vendor/lib64/libmlipay.so|db7e8e8a2cc3b41cff556c8a077dc32118a6d61a
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
@@ -2264,8 +2264,8 @@ product/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 product/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
 product/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 product/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
-vendor/bin/hw/vendor.qti.hardware.scve.objecttracker@1.0-service
-vendor/bin/hw/vendor.qti.hardware.scve.panorama@1.0-service
+vendor/bin/hw/vendor.qti.hardware.scve.objecttracker@1.0-service|a97a2d32cfd17cbc0b80abbc12a8158cb62745fd
+vendor/bin/hw/vendor.qti.hardware.scve.panorama@1.0-service|3464208e6bef04754dc7099d743f94635404e75d
 vendor/etc/init/vendor.qti.hardware.scve.objecttracker@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.scve.panorama@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.scve.objecttracker@1.0-impl.so
@@ -2283,9 +2283,9 @@ vendor/lib/libscvePanorama_lite.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0-halimpl.so
+vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0-halimpl.so|e35d7e1b32f6376ca15a3d9f2dc952adb4911f6b
 vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
-vendor/lib/vendor.qti.hardware.scve.panorama@1.0-halimpl.so
+vendor/lib/vendor.qti.hardware.scve.panorama@1.0-halimpl.so|b515a25d8919a222e27edfeca6098fc934bba271
 vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.scve.objecttracker@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.scve.panorama@1.0-impl.so
@@ -2367,7 +2367,7 @@ lib64/libwfdcommonutils.so
 lib64/libwfdconfigutils.so
 lib64/libwfdmminterface.so
 lib64/libwfdmmsink.so
-lib64/libwfdnative.so
+lib64/libwfdnative.so|f73b44bcb2825d300cada639f8f6de9db85207e9
 lib64/libwfdrtsp.so
 lib64/libwfdsinksm.so
 lib64/libwfdsm.so
