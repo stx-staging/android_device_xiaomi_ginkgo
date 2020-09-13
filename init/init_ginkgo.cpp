@@ -36,7 +36,6 @@
 #include "vendor_init.h"
 
 using android::base::GetProperty;
-using android::init::property_set;
 using std::string;
 
 void property_override(string prop, string value)
@@ -66,7 +65,8 @@ void vendor_load_properties()
     }
 
     // Override all partitions' props
-    string prop_partitions[] = { "", "odm.", "product.", "system.", "vendor." };
+    string prop_partitions[] = { "", "odm.", "product.", "system.",
+					"system_ext.", "bootimage.", "vendor." };
 
     for (const string &prop : prop_partitions) {
         property_override(string("ro.product.") + prop + string("name"), device);
